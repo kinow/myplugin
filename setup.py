@@ -8,7 +8,7 @@ setup(
     py_modules=['my_plugin'],
     entry_points={
        # register this plugin with Cylc
-       'main_loop': [
+       'cylc.main_loop': [
          # name = python.namespace.of.module
          'my_plugin=my_plugin'
        ]
